@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta
+      name="description"
+      content="Explore the Solemate men's collection. Discover thoughtfully handcrafted slip-ons designed for comfort, individuality and everyday elegance." />
+
+    <meta name="theme-color" content="#8f1d2c" />
+
+    <title>Men's Collection | Solemate Handcrafted Footwear</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- MAIN STYLESHEET -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- ANNOUNCEMENT BAR -->
+    <div class="announcement">
+      HANDCRAFTED WITH INTENTION · MADE TO MOVE WITH YOU
+    </div>
+
+    <!-- HEADER -->
+    <header class="site-header">
+      <!-- BRAND LOGO -->
+      <a class="brand" href="index.html" aria-label="Solemate homepage">
+        <img
+          src="images/solemate_logo.jpeg"
+          alt="Solemate Handcrafted Footwear"
+          class="brand-logo" />
+      </a>
+
+      <!-- NAVIGATION -->
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+
+        <a class="active" href="men.html" aria-current="page"> Men </a>
+
+        <a href="women.html">Women</a>
+
+        <a href="index.html#story">Our story</a>
+      </nav>
+
+      <!-- HEADER CTA -->
+      <a class="header-cta" href="mailto:hello@solemate.com">
+        Enquire now <span>↗</span>
+      </a>
+
+      <!-- MOBILE MENU -->
+      <button
+        class="menu-toggle"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        onclick="
+          document.body.classList.toggle('nav-open');
+          this.setAttribute(
+            'aria-expanded',
+            document.body.classList.contains('nav-open'),
+          );
+        ">
+        ☰
+      </button>
+    </header>
+
+    <main>
+      <!-- MEN'S COLLECTION HERO -->
+      <section class="category-hero men-hero">
+        <div class="category-copy">
+          <p class="eyebrow">THE SOLEMATE COLLECTION / 01</p>
+
+          <h1>
+            Quiet confidence.<br />
+            <em>Every single step.</em>
+          </h1>
+
+          <p>
+            For the man who knows that true style never needs to shout. Discover
+            handcrafted slip-ons that make getting ready the easiest part of
+            your day.
+          </p>
+
+          <a class="button button-dark" href="#products">
+            View men's styles <span>↓</span>
+          </a>
+        </div>
+
+        <!-- COLLECTION FEATURE IMAGE -->
+        <div class="category-image">
+          <img
+            src="https://images.unsplash.com/photo-1531310197839-ccf54634509e?auto=format&fit=crop&w=1200&q=85"
+            alt="Men's casual footwear editorial" />
+
+          <span>THE MEN'S EDIT — 2026</span>
+        </div>
+      </section>
+
+      <!-- MEN'S PRODUCT COLLECTION -->
+      <section class="products-section section-wrap" id="products">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE MEN'S EDIT</p>
+
+            <h2>Everyday icons.</h2>
+          </div>
+
+          <p class="section-aside">
+            A considered selection of handcrafted<br />
+            styles. Find your new favourite pair.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <!-- PRODUCT 01 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img
+                src="images/men-slipon-01.jpg"
+                alt="Men's classic handcrafted leather slip-on"
+                loading="lazy" />
+
+              <span class="product-tag"> CLASSIC </span>
+            </div>
+
+            <div class="product-meta">
+              <div>
+                <h3>The Classic</h3>
+                <p>Clean lines · Everyday ease</p>
+              </div>
+
+              <span>01</span>
+            </div>
+
+            <p class="product-placeholder">
+              Product image:
+              <code>images/men-slipon-01.jpg</code>
+            </p>
+          </article>
+
+          <!-- PRODUCT 02 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img
+                src="images/men-slipon-02.jpg"
+                alt="Men's relaxed woven handcrafted slip-on"
+                loading="lazy" />
+
+              <span class="product-tag"> RELAXED </span>
+            </div>
+
+            <div class="product-meta">
+              <div>
+                <h3>The Weekender</h3>
+                <p>Relaxed texture · Easy comfort</p>
+              </div>
+
+              <span>02</span>
+            </div>
+
+            <p class="product-placeholder">
+              Product image:
+              <code>images/men-slipon-02.jpg</code>
+            </p>
+          </article>
+
+          <!-- PRODUCT 03 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img
+                src="images/men-slipon-03.jpg"
+                alt="Men's signature handcrafted slip-on footwear"
+                loading="lazy" />
+
+              <span class="product-tag"> SIGNATURE </span>
+            </div>
+
+            <div class="product-meta">
+              <div>
+                <h3>The Signature</h3>
+                <p>Distinctive detail · Timeless feel</p>
+              </div>
+
+              <span>03</span>
+            </div>
+
+            <p class="product-placeholder">
+              Product image:
+              <code>images/men-slipon-03.jpg</code>
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- BRAND QUOTE -->
+      <section class="category-quote">
+        <p>“The best kind of style is the kind you can live in.”</p>
+
+        <span> — THE SOLEMATE STANDARD </span>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer-top">
+        <!-- FOOTER LOGO -->
+        <a
+          class="brand brand-light"
+          href="index.html"
+          aria-label="Solemate homepage">
+          <img
+            src="images/solemate_logo.jpeg"
+            alt="Solemate Handcrafted Footwear"
+            class="brand-logo" />
+        </a>
+
+        <p>
+          Step into something<br />
+          <em>that feels like you.</em>
+        </p>
+
+        <a
+          class="footer-link"
+          href="https://wa.me/2348059302848?text=Hello%20Solemate%2C%20I%27d%20like%20to%20make%20an%20enquiry%20about%20the%20women%27s%20collection."
+          target="_blank"
+          rel="noopener noreferrer">
+          ORDER / ENQUIRE <span>↗</span>
+        </a>
+      </div>
+
+      <!-- FOOTER BOTTOM -->
+      <div class="footer-bottom">
+        <span> © 2026 SOLEMATE FOOTWEARS. ALL RIGHTS RESERVED. </span>
+
+        <span> MADE WITH CARE, WORN WITH JOY. </span>
+
+        <div>
+          <a href="index.html">Home</a>
+          <a href="women.html">Women</a>
+          <a
+            href="https://wa.me/2348059302848?text=Hello%20Solemate%2C%20I%27d%20like%20to%20make%20an%20enquiry%20about%20the%20women%27s%20collection."
+            target="_blank"
+            rel="noopener noreferrer"
+            >Contact</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

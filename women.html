@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover the Solemate women's collection — thoughtfully handcrafted slip-ons designed for comfort, elegance and everyday expression." />
+    <meta name="theme-color" content="#8f1d2c" />
+
+    <title>Women's Collection | Solemate — Crafted for Every Step</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- Announcement Bar -->
+    <div class="announcement">
+      HANDCRAFTED WITH INTENTION · MADE TO MOVE WITH YOU
+    </div>
+
+    <!-- Header -->
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Solemate homepage">
+        <img
+          src="images/solemate_logo.jpeg"
+          alt="Solemate Handcrafted Footwear"
+          class="brand-logo" />
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="men.html">Men</a>
+        <a class="active" href="women.html" aria-current="page">Women</a>
+        <a href="index.html#story">Our story</a>
+      </nav>
+
+      <a
+        class="header-cta"
+        href="https://wa.me/2348059302848?text=Hello%20Solemate%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+        target="_blank"
+        rel="noopener noreferrer">
+        Enquire now <span>↗</span>
+      </a>
+
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-label="Toggle navigation"
+        aria-expanded="false"
+        onclick="
+          document.body.classList.toggle('nav-open');
+          this.setAttribute(
+            'aria-expanded',
+            document.body.classList.contains('nav-open'),
+          );
+        ">
+        ☰
+      </button>
+    </header>
+
+    <main>
+      <!-- Women's Collection Hero -->
+      <section class="category-hero women-hero">
+        <div class="category-copy">
+          <p class="eyebrow">THE SOLEMATE COLLECTION / 02</p>
+
+          <h1>
+            Softness in form.<br />
+            <em>Strength in style.</em>
+          </h1>
+
+          <p>
+            For the woman who moves through life on her own terms. Discover
+            thoughtfully handcrafted slip-ons that bring effortless elegance,
+            comfort and character to everyday moments.
+          </p>
+
+          <a class="button button-dark" href="#products">
+            Explore the collection <span>↓</span>
+          </a>
+        </div>
+
+        <div class="category-image">
+          <img
+            src="https://images.unsplash.com/photo-1543163521-1bf539c55dd2?auto=format&fit=crop&w=1200&q=85"
+            alt="Elegant women's footwear editorial"
+            loading="eager" />
+
+          <span>THE WOMEN'S EDIT — 2026</span>
+        </div>
+      </section>
+
+      <!-- Women's Products -->
+      <section class="products-section section-wrap" id="products">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">THE WOMEN'S EDIT</p>
+            <h2>Beautifully at ease.</h2>
+          </div>
+
+          <p class="section-aside">
+            Thoughtful details. Versatile silhouettes.<br />
+            Made to become part of your story.
+          </p>
+        </div>
+
+        <div class="product-grid">
+          <!-- Product 01 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img
+                src="images/women-slipon-01.jpg"
+                alt="The Everyday women's handcrafted slip-on"
+                loading="lazy"
+                onerror="this.style.display = 'none'" />
+
+              <span class="product-tag">CLASSIC</span>
+            </div>
+
+            <div class="product-meta">
+              <div>
+                <h3>The Everyday</h3>
+                <p>Understated · Effortless</p>
+              </div>
+
+              <span>01</span>
+            </div>
+
+            <a
+              class="product-enquiry"
+              href="https://wa.me/2348059302848?text=Hello%20Solemate%2C%20I%27m%20interested%20in%20The%20Everyday%20women%27s%20slip-on.%20Please%20share%20the%20price%20and%20available%20options."
+              target="_blank"
+              rel="noopener noreferrer">
+              Enquire on WhatsApp <span>↗</span>
+            </a>
+          </article>
+
+          <!-- Product 02 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img
+                src="images/women-slipon-02.jpg"
+                alt="The Woven women's handcrafted slip-on"
+                loading="lazy"
+                onerror="this.style.display = 'none'" />
+
+              <span class="product-tag">TEXTURED</span>
+            </div>
+
+            <div class="product-meta">
+              <div>
+                <h3>The Woven</h3>
+                <p>Artful texture · Easy elegance</p>
+              </div>
+
+              <span>02</span>
+            </div>
+
+            <a
+              class="product-enquiry"
+              href="https://wa.me/2348059302848?text=Hello%20Solemate%2C%20I%27m%20interested%20in%20The%20Woven%20women%27s%20slip-on.%20Please%20share%20the%20price%20and%20available%20options."
+              target="_blank"
+              rel="noopener noreferrer">
+              Enquire on WhatsApp <span>↗</span>
+            </a>
+          </article>
+
+          <!-- Product 03 -->
+          <article class="product-card">
+            <div class="product-image">
+              <img
+                src="images/women-slipon-03.jpg"
+                alt="The Muse women's statement handcrafted slip-on"
+                loading="lazy"
+                onerror="this.style.display = 'none'" />
+
+              <span class="product-tag">SIGNATURE</span>
+            </div>
+
+            <div class="product-meta">
+              <div>
+                <h3>The Muse</h3>
+                <p>Modern character · Soft finish</p>
+              </div>
+
+              <span>03</span>
+            </div>
+
+            <a
+              class="product-enquiry"
+              href="https://wa.me/2348059302848?text=Hello%20Solemate%2C%20I%27m%20interested%20in%20The%20Muse%20women%27s%20slip-on.%20Please%20share%20the%20price%20and%20available%20options."
+              target="_blank"
+              rel="noopener noreferrer">
+              Enquire on WhatsApp <span>↗</span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <!-- Collection Quote -->
+      <section class="category-quote">
+        <p>“A beautiful day begins with a step that feels right.”</p>
+
+        <span>— THE SOLEMATE STANDARD</span>
+      </section>
+
+      <!-- WhatsApp Call to Action -->
+      <section class="collection-cta">
+        <p class="eyebrow">YOUR NEXT FAVOURITE PAIR AWAITS</p>
+
+        <h2>Let's find your<br /><em>perfect Solemate.</em></h2>
+
+        <p>
+          Have questions about our styles, sizes or availability? We'd love to
+          help you find the right pair.
+        </p>
+
+        <a
+          class="button button-dark"
+          href="https://wa.me/2348059302848?text=Hello%20Solemate%2C%20I%27d%20like%20to%20make%20an%20enquiry%20about%20the%20women%27s%20collection."
+          target="_blank"
+          rel="noopener noreferrer">
+          Chat with us on WhatsApp <span>↗</span>
+        </a>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-top">
+        <a
+          class="brand brand-light"
+          href="index.html"
+          aria-label="Solemate homepage">
+          <img
+            src="images/solemate_logo.jpeg"
+            alt="Solemate Handcrafted Footwear"
+            class="brand-logo" />
+        </a>
+
+        <p>
+          Step into something<br />
+          <em>that feels like you.</em>
+        </p>
+
+        <a
+          class="footer-link"
+          href="https://wa.me/2348059302848?text=Hello%20Solemate%2C%20I%27d%20like%20to%20make%20an%20enquiry."
+          target="_blank"
+          rel="noopener noreferrer">
+          ORDER / ENQUIRE <span>↗</span>
+        </a>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 SOLEMATE FOOTWEARS. ALL RIGHTS RESERVED.</span>
+
+        <span>MADE WITH CARE, WORN WITH JOY.</span>
+
+        <div>
+          <a href="index.html">Home</a>
+          <a href="men.html">Men</a>
+          <a href="women.html">Women</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
